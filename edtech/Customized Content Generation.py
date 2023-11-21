@@ -12,7 +12,7 @@ learning_data = {
         "This is a visual way to learn. Use diagrams and charts.",
         "I prefer reading textbooks for learning.",
         "I learn best through hands-on experiences.",
-        # Add more learning styles and content here
+        
     ],
     'learning_style': ['Visual', 'Reading', 'Hands-on']  # Learning style labels
 }
