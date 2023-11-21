@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teacher/Admin Panel</title>
+  <!-- Add your CSS styles or link to external CSS files -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Teacher/Admin Panel</h1>
+    
+    <!-- Content management section -->
+    <div class="content-management">
+      <h2>Content Management</h2>
+      <button onclick="createContent()">Create Content</button>
+      <button onclick="editContent()">Edit Content</button>
+      <button onclick="deleteContent()">Delete Content</button>
+    </div>
+    
+    <!-- Assessment management section -->
+    <div class="assessment-management">
+      <h2>Assessment Management</h2>
+      <button onclick="createAssessment()">Create Assessment</button>
+      <button onclick="editAssessment()">Edit Assessment</button>
+      <button onclick="deleteAssessment()">Delete Assessment</button>
+    </div>
+
+    <!-- Grading system -->
+    <div class="grading-system">
+      <h2>Grading System</h2>
+      <button onclick="gradeAssessments()">Grade Assessments</button>
+      <button onclick="viewGrades()">View Grades</button>
+    </div>
+
+    <!-- Analytics and reports section -->
+    <div class="analytics-reports">
+      <h2>Analytics and Reports</h2>
+      <button onclick="viewAnalytics()">View Analytics</button>
+      <button onclick="viewStudentProgress()">View Student Progress</button>
+    </div>
+  </div>
+
+  <!-- Add your JavaScript logic or link to external JS files -->
+  <script src="admin_panel.js"></script>
+</body>
+</html>
